@@ -9,10 +9,10 @@ body {
     flex-direction: column;
 }
 
-/* Container styling */
+
 .container {
    position: relative;
-    width: 45%; /* Adjust width as per requirement */
+    width: 45%; 
     height: auto;
     background-color: #254E58;
     border-radius: 3%;
@@ -20,9 +20,9 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items */
+    align-items: center; 
     justify-content: center;
-    gap: 20px; /* Add spacing between sections */
+    gap: 20px; 
    
     left: 20.5%;
 }
@@ -36,16 +36,15 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* General styling for sections (Personal info, education, experience, etc.) */
  .name, .info, .cont, .add, .edu, .exp, .skills {
-    width: 120%; /* Make it full-width inside the container */
+    width: 120%; 
     background-color: #BAB2B5;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center text inside */
+    align-items: center; 
     text-align: center;
     margin-top: 5%;
 }
@@ -53,7 +52,7 @@ h1 {
 
 textarea, input[type="text"], input[type="email"], input[type="contact"] {
     padding: 10px;
-    width: 100%; /* Full width inside the container */
+    width: 100%; 
     border: 1px solid black;
     border-radius: 5px;
     font-size: 1rem;
@@ -94,17 +93,17 @@ color: black;
 }
 
 #resumeOutput {
-    width: 80%; /* You can adjust this value to control width */
-    height: 80vh; /* Adjust the height relative to the viewport */
+    width: 80%; 
+    height: 80vh; 
     max-width: 600px;
    position:absolute;
     padding: 20px;
     border-radius: 8px;
     background-color: white;
     color: #2c3e50;
-    position: absolute; /* Ensures you can adjust the top margin effectively */
+    position: absolute; 
     top: 11%;
-    left: -80%; /* Moves the element downwards relative to the viewport */
+    left: -80%; 
 }
 #resumeOutput .box h2 {
     position: absolute;
@@ -115,42 +114,42 @@ color: black;
     text-align: center; 
     width: 100%; 
 }
-/* Headings in the resume */
+
 #resumeOutput .box h2,
 #resumeOutput .box h3,
 #resumeOutput .box h4,
 #resumeOutput .box h5 {
-    margin-top: 20px; /* Space above each heading */
+    margin-top: 20px; 
     color: black;
     font-size: 1.5rem; 
-    left: -35%;/* Adjust as needed */
+    left: -35%;
 }
 
-/* Education, Experience, Skills headings */
+
 #resumeOutput .box h3 {
-    margin-top: 40px; /* Specific margin for the Education heading */
+    margin-top: 40px; 
     margin-left: 5%;
 }
 
 #resumeOutput .box h4 {
-    margin-top: 30px; /* Specific margin for the Experience heading */
+    margin-top: 30px; 
 }
 
 #resumeOutput .box h5 {
-    margin-top: 30px; /* Specific margin for the Skills heading */
+    margin-top: 30px;
 }
 
 
 
-/* Styling for text areas within the resume */
+
 #resumeOutput .box .edu textarea {
-    width: 100%; /* Full width within the container */
-    padding: 10px; /* Padding inside textarea */
+    width: 100%; 
+    padding: 10px; 
     border-radius: 5px;
-    border: 1px solid #ccc; /* Light border */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    margin-top: 10px; /* Space above text area */
-    margin-bottom: 20px; /* Space below text area */
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
 }
 #resumeOutput .box education textarea{
   position: relative;

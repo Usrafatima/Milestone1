@@ -1,0 +1,171 @@
+
+body {
+    background-color: #88BDBC;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container styling */
+.container {
+   position: relative;
+    width: 45%; /* Adjust width as per requirement */
+    height: auto;
+    background-color: #254E58;
+    border-radius: 3%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+    justify-content: center;
+    gap: 20px; /* Add spacing between sections */
+   
+    left: 20.5%;
+}
+
+/* Centering the title */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+   
+    color: black grey;
+    margin-bottom: 20px;
+}
+
+/* General styling for sections (Personal info, education, experience, etc.) */
+ .name, .info, .cont, .add, .edu, .exp, .skills {
+    width: 120%; /* Make it full-width inside the container */
+    background-color: #BAB2B5;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text inside */
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+textarea, input[type="text"], input[type="email"], input[type="contact"] {
+    padding: 10px;
+    width: 100%; /* Full width inside the container */
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+.edu, .exp, .skills {
+    font-size: 1.2rem;
+    width: 120%;
+    margin-bottom: 15px;
+    position: relative;
+}
+#resumeOutput .box p{
+position: relative;
+margin-left: 5%;
+color: black;
+}
+#resumeOutput .box .edu p{
+    position: relative;
+    margin-left: 5%;
+}
+
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 1.3em;
+    background-color: #fff;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#resumeOutput {
+    width: 80%; /* You can adjust this value to control width */
+    height: 80vh; /* Adjust the height relative to the viewport */
+    max-width: 600px;
+   position:absolute;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: #2c3e50;
+    position: absolute; /* Ensures you can adjust the top margin effectively */
+    top: 11%;
+    left: -80%; /* Moves the element downwards relative to the viewport */
+}
+#resumeOutput .box h2 {
+    position: absolute;
+    margin-left: 180%;
+    font-size: 3%;
+    color:black; 
+    top: 30%; 
+    text-align: center; 
+    width: 100%; 
+}
+/* Headings in the resume */
+#resumeOutput .box h2,
+#resumeOutput .box h3,
+#resumeOutput .box h4,
+#resumeOutput .box h5 {
+    margin-top: 20px; /* Space above each heading */
+    color: black;
+    font-size: 1.5rem; 
+    left: -35%;/* Adjust as needed */
+}
+
+/* Education, Experience, Skills headings */
+#resumeOutput .box h3 {
+    margin-top: 40px; /* Specific margin for the Education heading */
+    margin-left: 5%;
+}
+
+#resumeOutput .box h4 {
+    margin-top: 30px; /* Specific margin for the Experience heading */
+}
+
+#resumeOutput .box h5 {
+    margin-top: 30px; /* Specific margin for the Skills heading */
+}
+
+
+
+/* Styling for text areas within the resume */
+#resumeOutput .box .edu textarea {
+    width: 100%; /* Full width within the container */
+    padding: 10px; /* Padding inside textarea */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light border */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-top: 10px; /* Space above text area */
+    margin-bottom: 20px; /* Space below text area */
+}
+#resumeOutput .box education textarea{
+  position: relative;
+  margin-left: 15%;
+}
+
+
+.box{
+    background-color: grey;
+    height: 784px;
+     width: 33%;
+     position: absolute;
+     top: -0.1%;
+   
+     left: -0.2%;
+    
+     
+}
